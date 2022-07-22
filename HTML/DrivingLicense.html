@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Driving License</title>
+    </head>
+    <form>
+        <h2 align="center"> Driving License</h2>
+        <body align="center">
+            <label>Date of birth: </label>
+            <input type ="date" /><br/><br/>
+            <label>Gender: </label>
+            <input type="radio" name="gender"/><label>Male</label>
+            <input type="radio" name="gender"/><label></label><label>Female</label>
+            <input type="radio"name="gender" /><label>Other</label><br/><br/>
+            <label>PAN no: </label>
+            <input type="text"  maxlength="10" /><br/><br/>
+            <label>LNo :</label>
+            <input type="text" patern="^[A-Z](?:\d[- ]*){14}$"maxlength="12"/><br/><br/>
+            <input type="button" value="Submit" />
+        </body>
+    </form>
+</html>

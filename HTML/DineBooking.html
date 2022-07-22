@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            Dine Booking
+        </title>
+</head>
+<form>
+    <body align="center">
+        <h2>Dine Booking</h2>
+        <label>Visitors name: </label>
+        <input type="text"  pattern="[a-zA-Z]" autofocus /><br/><br/>
+        <label>No of members: </label>
+        <input type="number" /><br/><br/><br/>
+        <label>Contact number: </label>
+        <input type="text" pattern="[0-9]" maxlength="10" /><br/><br/>
+        <label>Email: </label>
+        <input type="email" /><br/><br/>
+        <label>Types of cuisine: </label>
+        <input type="radio" name="gender"/><label>SouthIndian</label>
+        <input type="radio" name="gender"/><label></label><label>North</label>
+        <input type="radio"name="gender" /><label>Chinese</label>
+        <input type="radio" name="gender"/><label>Western</label><br/><br/>
+        <label>Room Status : </label>
+        <input type="radio" name="ac"/><label>AC</label>
+        <input type="radio"name="ac" /><label>Non AC</label><br/><br/>
+        <label>Venue Preference :</label>
+        <select id="Venue">
+        <option value="ind">India</option>
+        <option value ="chi">China</option>
+        </select><br /><br />
+        <input type ="button" value="Book" />
+        <input type ="reset" value ="reset" />
+
+    </body>
+</form>
+</html>
