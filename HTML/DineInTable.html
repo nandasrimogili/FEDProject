@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            Dine Booking
+        </title>
+    </head>
+        <body align="center">
+            <form>
+            <h2>Dine Booking</h2><br/><br/>
+            <table align="center">
+                <tr>
+                    <td> Visitors name:</td>
+                    <td><input type="text"  pattern="[a-zA-Z]" autofocus /></td>
+                </tr>
+                <tr>
+                    <td> No of Members:</td>
+                    <td><input type="number" /></td>
+                </tr> 
+                <tr>
+                    <td>Contact number: </td>
+                    <td><input type="text" pattern="[0-9]" maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td>Email:  </td>
+                    <td><input type="email" /></td>
+                </tr>
+                <tr>
+                    <td>Types of cuisine: </td>
+                    <td><input type="radio" name="cus"/>South Indian
+                        <input type="radio" name="cus"/>North Indian
+                        <input type="radio"name="cus" />Chinese
+                        <input type="radio" name="cus"/>Western
+                    </td>
+                </tr>
+                <tr>
+                    <td>Room Status : </td>
+                    <td><input type="radio" name="ac"/>AC
+                        <input type="radio"name="ac" />Non AC</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Venue Preference :</td>
+                    <td><select id="--SELECT--">
+                        <option value="ind">India</option>
+                        <option value ="chi">China</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type ="button" value="Book" /></td>
+                    <td><input type ="reset" value ="reset" /></td>
+                </tr>
+
+            </table>
+        </form>
+        </body>
+</html>
